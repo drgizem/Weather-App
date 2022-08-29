@@ -27,8 +27,9 @@ function Data(){
 
     function deleteButton(id) {
         console.log(id);
-        setDataArr((preArr) => {
-          return preArr.filter((item, index) => index !== id);
+        setPlayerData((preArr) => {
+          return preArr.filter((item, index) => 
+          index !== id);
         });
       }
 
