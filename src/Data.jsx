@@ -16,7 +16,7 @@ function Data(){
           }
           );
 
-
+        }
     function handleChange(event){
         const{name,value}=event.target
         setPlayerData((prevPlayer)=>{
@@ -47,7 +47,7 @@ function Data(){
    
    
     )
-}
+
 }
 
 export default Data;
