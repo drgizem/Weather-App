@@ -26,22 +26,27 @@ function Data(){
     }
 
     function deleteButton(id) {
-        console.log(id);
+       
         setPlayerData((preArr) => {
           return preArr.filter((item, index) => 
           index !== id);
         });
       }
 
-
+    function editButton(id) {
+        return ("clicked")
+    }
 
 
     return (
     <Player  
+    id={0}
     fName={"Koray"}
     sName={"Akpinar"}
     age={30}
     team={"Galatasaray"} 
+    deletefunc={deleteButton}
+    editfunc={editButton}
         
     />
    
