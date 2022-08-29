@@ -5,8 +5,11 @@ function App(){
 
     return(
         <>
-            <Data />
+        <div>
+        <p>This is App area</p>
+        <Data />
             <InputArea />
+            </div>
         </>
     )
 }
