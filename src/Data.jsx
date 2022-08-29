@@ -10,6 +10,21 @@ function Data(){
         team:""
     })
 
+    function handleSubmit(){
+        setPlayers((prevObj) => {
+            return [...prevObj, playerData];
+          }
+          );
+
+
+    function handleChange(event){
+        const{name,value}=event.target
+        setPlayerData((prevPlayer)=>{
+            return {...prevPlayer,
+                [name]: value}
+        })
+    }
+
 
 
 
@@ -24,6 +39,7 @@ function Data(){
    
    
     )
+}
 }
 
 export default Data;
