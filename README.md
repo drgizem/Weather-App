@@ -5,7 +5,7 @@ Description: In this project, I made a simple weather application in which the u
 
 ![](./screenshot.jpg)
 
-##Technologies that I used:
+## Technologies that I used:
 
 HTML 5
 CSS
