@@ -6,5 +6,3 @@ Description: In this project, I made a simple weather application in which the u
 HTML 5
 CSS
 React (hooks, API)
-
-![my weather app](/src/weatherapp.png)
